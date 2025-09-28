@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "my-dashboard",  // 👈 replace with your repo name
+  base: "/my-dashboard/",  // 👈 replace with your repo name
 })

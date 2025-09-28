@@ -16,7 +16,10 @@ const Header = ({ toggleDarkMode, darkMode, toggleSidebar }) => {
           </button>
           
           <div className="ml-4 lg:ml-0">
-            <h1 className="text-xl font-semibold text-gray-800  dark:text-white">Dashboard</h1>
+           <h1 className="text-xl font-semibold text-gray-800 dark:text-white hidden sm:block">
+  Dashboard
+</h1>
+
           </div>
         </div>
         
